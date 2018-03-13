@@ -7,30 +7,36 @@ h1 {
     color: #0341e6;
     text-align: center;
 }
-div:nth-of-type(1) {
-    width: 48%;
-    float: left;
-}
-div:nth-of-type(2){
-    width: 48%;
-    width: right;
-}
 .one {
+    background-color: rgba(198, 186, 230, 0.85);
     width: 45%;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px;
     float: left;
 }
 .two {
     width: 45%;
+    background-color: rgba(198, 186, 230, 0.85);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 2px;
     float: right;
-}
-.ken {
-    width: 50%;
-    float:inherit;
 }
 .pics{ border: 1px;
     border-style:solid;
     box-shadow: 5px 5px;
     }
+.ken{
+    width: 45%;
+    background-color: rgba(198, 186, 230, 0.85);
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+    float:left;
+}
 #dan {
     width: 70%;
 }
@@ -38,7 +44,7 @@ div:nth-of-type(2){
     width: 40%;
 }
 #josh {
-    width: 55%;
+    width: 50%;
 }
 #eddy {
     width: 60%;
