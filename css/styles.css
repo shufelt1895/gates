@@ -1,12 +1,68 @@
-body { background-image: url("../images/logo.png");
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../images/logo.png");
     background-size: cover;
     background-position: center;
-height: 100vh;
-    }
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the header */
+
+.header {
+    background-color: aliceblue;
+    padding: 1px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(242, 242, 242);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row: after {
+    content: "";
+    display: table;
+    clear: both;
+}
 h1 {
     color: #0341e6;
     text-align: center;
 }
+
 .one {
     background-color: rgba(198, 186, 230, 0.85);
     width: 45%;
@@ -16,6 +72,7 @@ h1 {
     margin: 2px;
     float: left;
 }
+
 .two {
     width: 45%;
     background-color: rgba(198, 186, 230, 0.85);
@@ -25,30 +82,41 @@ h1 {
     margin: 2px;
     float: right;
 }
-.pics{ border: 1px;
-    border-style:solid;
+
+.pics {
+    border: 1px;
+    border-style: solid;
     box-shadow: 5px 5px;
-    }
-.ken{
+}
+
+.ken {
     width: 45%;
     background-color: rgba(198, 186, 230, 0.85);
     border: 2px solid black;
     padding: 2px;
     margin: 2px;
-    float:left;
+    float: left;
 }
+
 #dan {
     width: 70%;
 }
+
 #zane {
     width: 40%;
 }
+
 #josh {
     width: 50%;
 }
+
 #eddy {
     width: 60%;
 }
+
 #kenny {
     width: 75%;
+}
+#show {
+    width: 60%;
 }
