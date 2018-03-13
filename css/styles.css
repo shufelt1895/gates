@@ -1,0 +1,28 @@
+body { background-image: url("../images/logo.png");
+    background-size: cover;
+    background-position: center;
+height: 100vh;
+    }
+h1 {
+    color: #0341e6;
+    text-align: center;
+}
+.pics{ border: 1px;
+    border-style:solid;
+    box-shadow: 5px 5px;
+    }
+#dan {
+    width: 25%;
+}
+#zane {
+    width: 15%;
+}
+#josh {
+    width: 20%;
+}
+#eddy {
+    width: 20%;
+}
+#kenny {
+    width: 25%;
+}
